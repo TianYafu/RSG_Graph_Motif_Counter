@@ -5,7 +5,7 @@ For any given graph, such as this one:
 
 ![](img/graph_motif_distrib_1.png)
 
-we can generate graph motif distribution vector, which represents the motif distribution of this graph.
+We can generate graph motif distribution vector, which represents the motif distribution of this graph.
 
 This distribution could be of any size, according to the amount of motifs you may want to use.
 
