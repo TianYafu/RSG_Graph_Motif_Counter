@@ -1,7 +1,25 @@
 # RSG_Graph_Motif_Counter
 Calculate the distribution of motifs in RSG Graph
 
+For any given graph, such as this one:
+
+![](img/graph_motif_distrib_1.png)
+
+we can generate graph motif distribution vector, which represents the motif distribution of this graph.
+
+This distribution could be of any size, according to the amount of motifs you may want to use.
+
+For example, Here we generate the motif distribution vector of the previous random graph using graph motifs from 1 node to 6 nodes. Here is the distribution:
+
+![](img/graph_motif_distrib.png)
+
+## Pre-computed graph motifs
+
 Here we list all connected graph motifs with in size 1-7
+
+You can load them easily without any time-consuming calculation.
+
+Graph motifs stores in ```data/```
 
 ### Size-1 Graph Motif
 
