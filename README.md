@@ -13,6 +13,18 @@ For example, Here we generate the motif distribution vector of the previous rand
 
 ![](img/graph_motif_distrib.png)
 
+However, for a somehow larger, and denser graph, things will go weird:
+
+Like this one, it takes much more time to calculate.
+
+![](img/graph_motif_distrib_4.png)
+
+![](img/graph_motif_distrib_3.png)
+
+And calculating this will take a long time...
+
+![](img/graph_motif_distrib_5.png)
+
 ## Pre-computed graph motifs
 
 Here we list all connected graph motifs with in size 1-7

@@ -31,7 +31,7 @@ def calc_motif_distribution(G, graph_motif_list):
         for subgraph in GM.subgraph_isomorphisms_iter():
             hist[index] += 1
         t1 = time.perf_counter()
-        print(f"    progress: {index}/{len(graph_motif_list)} usint time {t1-t0}")
+        print(f"    progress: {index}/{len(graph_motif_list)} using time {t1-t0}")
     return hist
 
 def render_motif_hist(hist, graph_motif_list):
