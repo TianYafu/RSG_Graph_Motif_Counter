@@ -103,7 +103,6 @@ def save_graph_dict(n_nodes, graphs_dict):
         pickle.dump(flattened_graphs_dict, fh)
 
 
-
 if(__name__ == "__main__"):
     N_NODES = 7
     graphs_dict = common_graph_motifs_undirected(n_nodes=N_NODES, ignore_unconnected_graph=True)
